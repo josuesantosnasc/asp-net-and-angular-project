@@ -30,6 +30,8 @@ export const appConfig: ApplicationConfig = {
             if (splash) {
               splash.remove();
             }
+
+            resolve();
           }
         },500);
       });
